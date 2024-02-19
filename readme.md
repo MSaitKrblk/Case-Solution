@@ -1,6 +1,6 @@
 # Case 1
 
-# Kampanya Kodu Üretimi ve Doğrulama
+## Kampanya Kodu Üretimi ve Doğrulama
 
 Bu proje, belirli bir formatta kampanya kodları üretmek ve bu kodların doğruluğunu doğrulamak için bir algoritma içerir. Kampanya kodları sekiz karakterden oluşmakta ve belirli bir secret key ile şifrelenmektedir. Oluşturulan kodlar, secret key kullanılarak yeniden oluşturulur ve doğrulama işlemi bu şekilde gerçekleştirilir.
 
@@ -26,7 +26,7 @@ Notlar
 
 
 # Case 2
-# OCR Invoice Processor
+## OCR Invoice Processor
 
 Bu uygulama, optik karakter tanıma (OCR) ile elde edilen fatura verilerini işleyen bir uygulamadır. Veriler JSON formatında belirtilmiş olmalıdır.
 
