@@ -9,14 +9,28 @@ public class CampaignCodeGenerator
 
     public static void Main()
     {
-        string campaignId = "campaign123";
-        string generatedCode = GenerateCampaignCode(campaignId);
-        Console.WriteLine("Generated Code: " + generatedCode);
+        int i;
+        string campaignId = "";
 
-        bool isValid = ValidateCampaignCode(generatedCode, campaignId);
-        Console.WriteLine(isValid ? "Code is valid." : "Code is not valid.");
-        isValid = ValidateCampaignCode("CAP34G73", campaignId);
-        Console.WriteLine(isValid ? "Code is valid." : "Code is not valid.");
+        foreach (var character1 in Characters)
+        {
+            foreach (var character2 in Characters)
+            {
+                foreach (var character3 in Characters)
+                {
+                    campaignId+=character1;
+                    campaignId+=character2;
+                    campaignId+=character3;
+                    string generatedCode = GenerateCampaignCode(campaignId);
+                    Console.WriteLine("Generated Code: " + generatedCode);
+                    
+                    bool isValid = ValidateCampaignCode(generatedCode);
+                    Console.WriteLine(isValid ? "Code is valid." : "Code is not valid.");
+                    campaignId = null;
+                }
+            }
+        }
+
     }
 
     public static string GenerateCampaignCode(string campaignId)
@@ -30,13 +44,13 @@ public class CampaignCodeGenerator
             {
                 builder.Append(Characters[b % Characters.Length]);
             }
-            return builder.ToString().Substring(0, 8);
+            return builder.ToString().Substring(0, 5)+campaignId;
         }
     }
 
-    public static bool ValidateCampaignCode(string code, string campaignId)
+    public static bool ValidateCampaignCode(string code)
     {
-        string generatedCode = GenerateCampaignCode(campaignId);
+        string generatedCode = GenerateCampaignCode(code.Substring(5));
         return code == generatedCode;
     }
 }

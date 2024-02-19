@@ -1,29 +1,30 @@
 # Case 1
 
-## Kampanya Kodu Üretimi ve Doğrulama
+## Kampanya Kodu Oluşturma ve Doğrulama
 
-Bu proje, belirli bir formatta kampanya kodları üretmek ve bu kodların doğruluğunu doğrulamak için bir algoritma içerir. Kampanya kodları sekiz karakterden oluşmakta ve belirli bir secret key ile şifrelenmektedir. Oluşturulan kodlar, secret key kullanılarak yeniden oluşturulur ve doğrulama işlemi bu şekilde gerçekleştirilir.
+Bu C# programı, belirli bir karakter kümesinden rastgele kampanya kodları oluşturur ve bu kodları doğrular. Her kampanya kodu, kampanya kimliği ve bir gizli anahtarın birleşiminden türetilen bir hash ile oluşturulur.
 
-## Kullanım
+## Nasıl Çalışır?
 
-1. Main fonksiyonunda, campaignId değişkenine kampanya ID'si atanmalıdır.
-2. GenerateCampaignCode fonksiyonu ile kampanya kodu üretilebilir.
-3. ValidateCampaignCode fonksiyonu ile üretilen kampanya kodunun doğruluğu kontrol edilebilir.
+- Program, belirli bir karakter kümesini (`Characters`) ve bir gizli anahtarı (`SecretKey`) kullanarak kampanya kodları oluşturur ve doğrular.
+- Kampanya kimliği (`campaignId`) üç karakterlik kombinasyonları deneyerek oluşturulur.
+- Oluşturulan kampanya kodu, kampanya kimliği ve gizli anahtarın birleşiminden türetilen bir SHA-256 hash'ten elde edilir.
+- Oluşturulan kampanya kodu, ilk beş karakteri hash'ten, geri kalanı ise kampanya kimliğinden oluşur.
 
-Örnek
+## Gereksinimler
 
-string campaignId = "campaign123";
-string generatedCode = GenerateCampaignCode(campaignId);
-Console.WriteLine("Generated Code: " + generatedCode);
+- .NET Framework 4.7.2 veya üstü
 
-bool isValid = ValidateCampaignCode(generatedCode, campaignId);
-Console.WriteLine(isValid ? "Code is valid." : "Code is not valid.");
+## Nasıl Kullanılır?
 
-Notlar
+1. Kodu bir C# geliştirme ortamında (örneğin, Visual Studio) açın veya bir metin düzenleyicisinde (.NET SDK'sını yüklediyseniz) açın.
+2. Kodu derleyin ve çalıştırın.
+3. Program, kampanya kimliği kombinasyonlarını deneyerek kampanya kodları oluşturacak ve doğrulayacaktır.
 
-- Bu örnek, SHA-256 hash algoritması kullanılarak kampanya kodları oluşturur ve doğrular.
-- Secret key'in güvenliği önemlidir. Güvenli bir şekilde saklanmalı ve paylaşılmamalıdır.
+## Dikkat Edilmesi Gerekenler
 
+- Programın daha hızlı çalışabilmesi için kampanya kimliği (`campaignId`) üç karakterden oluşacak şekilde ayarlanmıştır. Daha uzun bir kampanya kimliği için programı uygun şekilde güncelleyebilirsiniz.
+- Gizli anahtar (`SecretKey`) sabit olarak belirlenmiştir. Gerçek uygulamalarda bu anahtarın daha güvenli bir şekilde saklanması gerekmektedir.
 
 # Case 2
 ## OCR Invoice Processor
