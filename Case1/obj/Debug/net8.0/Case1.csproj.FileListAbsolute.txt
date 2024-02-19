@@ -1,0 +1,15 @@
+/Users/msait/Desktop/KaizenTechCase/Case1/bin/Debug/net8.0/Case1
+/Users/msait/Desktop/KaizenTechCase/Case1/bin/Debug/net8.0/Case1.deps.json
+/Users/msait/Desktop/KaizenTechCase/Case1/bin/Debug/net8.0/Case1.runtimeconfig.json
+/Users/msait/Desktop/KaizenTechCase/Case1/bin/Debug/net8.0/Case1.dll
+/Users/msait/Desktop/KaizenTechCase/Case1/bin/Debug/net8.0/Case1.pdb
+/Users/msait/Desktop/KaizenTechCase/Case1/obj/Debug/net8.0/Case1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/msait/Desktop/KaizenTechCase/Case1/obj/Debug/net8.0/Case1.AssemblyInfoInputs.cache
+/Users/msait/Desktop/KaizenTechCase/Case1/obj/Debug/net8.0/Case1.AssemblyInfo.cs
+/Users/msait/Desktop/KaizenTechCase/Case1/obj/Debug/net8.0/Case1.csproj.CoreCompileInputs.cache
+/Users/msait/Desktop/KaizenTechCase/Case1/obj/Debug/net8.0/Case1.sourcelink.json
+/Users/msait/Desktop/KaizenTechCase/Case1/obj/Debug/net8.0/Case1.dll
+/Users/msait/Desktop/KaizenTechCase/Case1/obj/Debug/net8.0/refint/Case1.dll
+/Users/msait/Desktop/KaizenTechCase/Case1/obj/Debug/net8.0/Case1.pdb
+/Users/msait/Desktop/KaizenTechCase/Case1/obj/Debug/net8.0/Case1.genruntimeconfig.cache
+/Users/msait/Desktop/KaizenTechCase/Case1/obj/Debug/net8.0/ref/Case1.dll

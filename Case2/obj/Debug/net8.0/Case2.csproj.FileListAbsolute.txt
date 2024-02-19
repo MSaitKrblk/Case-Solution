@@ -1,0 +1,17 @@
+/Users/msait/Desktop/KaizenTechCase/Case2/bin/Debug/net8.0/Case2
+/Users/msait/Desktop/KaizenTechCase/Case2/bin/Debug/net8.0/Case2.deps.json
+/Users/msait/Desktop/KaizenTechCase/Case2/bin/Debug/net8.0/Case2.runtimeconfig.json
+/Users/msait/Desktop/KaizenTechCase/Case2/bin/Debug/net8.0/Case2.dll
+/Users/msait/Desktop/KaizenTechCase/Case2/bin/Debug/net8.0/Case2.pdb
+/Users/msait/Desktop/KaizenTechCase/Case2/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/msait/Desktop/KaizenTechCase/Case2/obj/Debug/net8.0/Case2.csproj.AssemblyReference.cache
+/Users/msait/Desktop/KaizenTechCase/Case2/obj/Debug/net8.0/Case2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/msait/Desktop/KaizenTechCase/Case2/obj/Debug/net8.0/Case2.AssemblyInfoInputs.cache
+/Users/msait/Desktop/KaizenTechCase/Case2/obj/Debug/net8.0/Case2.AssemblyInfo.cs
+/Users/msait/Desktop/KaizenTechCase/Case2/obj/Debug/net8.0/Case2.csproj.CoreCompileInputs.cache
+/Users/msait/Desktop/KaizenTechCase/Case2/obj/Debug/net8.0/Case2.csproj.CopyComplete
+/Users/msait/Desktop/KaizenTechCase/Case2/obj/Debug/net8.0/Case2.dll
+/Users/msait/Desktop/KaizenTechCase/Case2/obj/Debug/net8.0/refint/Case2.dll
+/Users/msait/Desktop/KaizenTechCase/Case2/obj/Debug/net8.0/Case2.pdb
+/Users/msait/Desktop/KaizenTechCase/Case2/obj/Debug/net8.0/Case2.genruntimeconfig.cache
+/Users/msait/Desktop/KaizenTechCase/Case2/obj/Debug/net8.0/ref/Case2.dll
